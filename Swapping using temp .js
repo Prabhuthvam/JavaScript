@@ -3,6 +3,6 @@ let b=prompt("enter b value =");
 console.log("before swapping a="+a+ "b="+b);
 let temp = a;
 a=b;
-b=a;
+b=temp;
 console.log("After swapping a="+a+ "b="+b);
 
